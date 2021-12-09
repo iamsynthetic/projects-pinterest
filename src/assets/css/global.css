@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+.search-bar {
+    z-index:2;
+}
+
+.drop-down-menu {
+    z-index:3;
+}
+
+.drop-down-menu {
+    justify-content:flex-end;
+    align-self: flex-end;
+    flex-wrap:wrap;
+    max-width:340px;
+    height:500px;
+    background-color:white;
+    border-radius:20px;
+    margin-top:10px;
+    padding:10px;
+    filter: drop-shadow(-6px 04px 10px rgba(0,0,0,0.15));
+}
+
+.drop-down-menu ul li {
+    text-decoration: none;
+    text-align:left;
+    margin-left:10px;
+}
+
+.drop-down-menu-logo-container{
+    height:90px;
+}
+
+.drop-down-menu-row{
+    margin-top:20px;
+}
+
+.drop-down-menu-heading {
+    font-size:11px;
+    margin: 20px 0 10px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.drop-down-menu-button{
+    font-size:16px;
+    padding:5px 0px 5px 10px;
+    display:block;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+}
+
+.card-heading-small {
+    font-size:11px;
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+}
