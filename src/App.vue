@@ -22,8 +22,8 @@ export default {
    mainmenu
   },
   created(){
-        document.title = "Pinterest Clone"
-    }
+    document.title = "Pinterest Clone"
+  }
 }
 </script>
 
