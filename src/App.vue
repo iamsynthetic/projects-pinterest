@@ -20,7 +20,10 @@ export default {
   },
   components: {
    mainmenu
-  }
+  },
+  created(){
+        document.title = "Pinterest Clone"
+    }
 }
 </script>
 
